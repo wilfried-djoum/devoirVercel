@@ -31,9 +31,6 @@ jobs:
       - name: Installation de bootstrap
         run:  npm install bootstrap --save --force
 
-      - name: Installation des dependances auxiliaires dans le fichier config.ts
-        run: npm install ci --force
-
       -  name: Run tests with code coverage
          uses: coactions/setup-xvfb@v1
          with:
