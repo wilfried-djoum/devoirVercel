@@ -31,6 +31,12 @@ jobs:
       - name: Installation de bootstrap
         run:  npm install bootstrap --save --force
 
+      - name: Installation de jquery
+        run:  npm install jquery --save --force
+
+      - name: Installation de popper js
+        run:  npm install popper.js --save --force
+
       -  name: Run tests with code coverage
          uses: coactions/setup-xvfb@v1
          with:
