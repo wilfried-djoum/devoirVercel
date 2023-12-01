@@ -26,7 +26,7 @@ describe('ProfilComponent', () => {
 
   it("Ceci devrait contenir 5 icones", () => {
     const icones = fixture.nativeElement.querySelectorAll('.controls .control i');
-    expect(icones.length).toBe(5)
+    expect(icones.length).toBe(6)
   })
 
   it("devrait contenir mon nom", () => {
