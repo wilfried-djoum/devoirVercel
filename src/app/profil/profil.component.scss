@@ -164,6 +164,15 @@
   .link:hover .link i {
       color: white;
   }
+  .inst:hover .inst {
+      background-color: rgba(248, 28, 28, 0.418);
+      color: white;
+      transition: all 0.4s ease-in-out;
+  }
+
+  .inst:hover .inst i {
+      color: white;
+  }
   .gplus:hover .gplus {
       background-color: red;
       color: white;
